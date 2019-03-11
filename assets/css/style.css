@@ -1,0 +1,14 @@
+.row {
+    text-align: center;
+    margin: 0;
+}
+
+.h1 {
+    display: inline;
+    font-weight: 300;
+    padding: 15px 0 15px 78px;
+}
+
+#timer-display {
+    display: inline;
+}
