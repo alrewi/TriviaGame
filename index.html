@@ -23,90 +23,102 @@
         </div>
     </div> 
 
-    <div class="row" id="row-1">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-1">What kind of star has a density so high that a teaspoonful of its matter would weigh more than all the people on Earth?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-1" value="correct">A neutron star</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-2">A red giant star</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-3">A white dwarf star</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-4">A crazy dense star</button>
+    <div id="results">
+        <h1 id="game-over">Game Over!</h1>
+        <h3 id="number-correct"></h3>
+        <h3 id="number-wrong"></h3>
+    </div>
+
+    <div id="game-area">
+
+        <div class="row" id="row-1">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-1">What kind of star has a density so high that a teaspoonful of its matter would weigh more than all the people on Earth?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupOne" value="correct">A neutron star</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupOne">A red giant star</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupOne">A white dwarf star</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupOne">A crazy dense star</button>
+            </div>
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-2">What name was given to the invisible material once thought to occupy all space?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-5">Air</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-6" value="correct">Ether</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-7">The Great Permeator</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-8">Nothing</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-2">What name was given to the invisible material once thought to occupy all space?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupTwo">Air</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupTwo" value="correct">Ether</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupTwo">The Great Permeator</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupTwo">Nothing</button>
+            </div>
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-3">What is the name of the theory that asserts that the universe appears the same wherever and whenever it is viewed?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-9">Wherever-Whenever Theory</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-10">Chaotic Inflation Theory</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-11">The Big Bang Theory</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-12" value="correct">Steady State Theory</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-3">What is the name of the theory that asserts that the universe appears the same wherever and whenever it is viewed?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupThree">Wherever-Whenever Theory</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupThree">Chaotic Inflation Theory</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupThree">The Big Bang Theory</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupThree" value="correct">Steady State Theory</button>
+            </div
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-4">Approximately how old is the universe?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-13">The universe is cyclically created and destroyed</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-14">6,000 years</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-15" value="correct">13.8 billion light years</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-16">155 trillion years</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-4">Approximately how old is the universe?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFour">The universe is cyclically created and destroyed</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFour">6,000 years</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFour" value="correct">13.8 billion light years</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFour">155 trillion years</button>
+            </div>
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-5">Approximately what percent of the matter in the universe is dark matter?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-17">27%</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-18">Dark matter doesn't exist</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-19">50%</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-20" value="correct">95%</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-5">Approximately what percent of the matter in the universe is dark matter?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFive">27%</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFive">Dark matter doesn't exist</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFive">50%</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupFive" value="correct">95%</button>
+            </div>
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-6">What is the largest type of star in the universe?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-21" value="correct">A red supergiant star</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-22">A humongostar</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-23">A white dwarf star</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-24">The sun</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-6">What is the largest type of star in the universe?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSix" value="correct">A red supergiant star</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSix">A humongostar</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSix">A white dwarf star</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSix">The sun</button>
+            </div>
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-7">What is believed to exist at the center of nearly every galaxy, including our own Milky Way?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-25">Another dimension</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-26" value="correct">A supermassive black hole</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-27">A galaxy has no center</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-28">A nebula</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-7">What is believed to exist at the center of nearly every galaxy, including our own Milky Way?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSeven">Another dimension</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSeven" value="correct">A supermassive black hole</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSeven">A galaxy has no center</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupSeven">A nebula</button>
+            </div>
         </div>
-    </div>
-    <br><br>
-    <div class="row">   
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-8">How long does it take sunlight to travel to the earth?</div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-29">24 hours</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-30">20 minutes</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-31" value="correct">8 minutes</button>
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-32">It's instantaneous</button>
+        <br><br>
+        <div class="row">   
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 question" id="question-8">How long does it take sunlight to travel to the earth?</div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" data-toggle="buttons">
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupEight">24 hours</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupEight">20 minutes</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupEight" value="correct">8 minutes</button>
+                <button type="button" class="btn btn-outline-warning btn-lg btn-block groupEight">It's instantaneous</button>
+            </div>
         </div>
+        <br><br>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-submit">Submit</button></div>
+        </div>
+
     </div>
-    <br><br>
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><button type="button" class="btn btn-outline-warning btn-lg btn-block" id="button-submit">Submit</button></div>
-    </div>
+
 
     <script src="assets/javascript/app.js"></script>
 </body>

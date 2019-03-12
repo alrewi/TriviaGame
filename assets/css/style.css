@@ -24,9 +24,6 @@ body, .jumbotron {
     display: inline;
     font-weight: 300;
 }
-#timer {
-    color:#06ABBC;
-}
 #timer-display {
     display: inline;
     color: #2E8BA2;
@@ -43,7 +40,7 @@ body, .jumbotron {
 }
 .question {
     font-size: 22px;
-    font-weight: 300px;
+    font-weight: 300px; 
     color: #41a53a;
 }
 #question-1 {
@@ -66,6 +63,7 @@ body, .jumbotron {
 }
 #question-7 {
     background-image: url("../images/black-hole-1181587-640x480.jpg");
+    color: #0d7703;
 }
 #question-8 {
     background-image: url("../images/nebula-1-1159148-640x512.jpg");
@@ -76,5 +74,24 @@ body, .jumbotron {
     background-color: #FF600E;
     float: right;
     margin-bottom: 10%;
+}
+
+
+/*Results page CSS*/
+
+#results {
+    position: relative;
+    top: 250px;
+    padding-left: 90px;
+}
+#game-over {
+    font-family: 'Faster One', cursive;
+    font-size: 5.5em;
+    color: #41a53a;
+}
+#number-correct, #number-wrong {
+    font-family: 'Contrail One', cursive;
+    font-size: 4em;
+    color: #efd10b;
 }
 
