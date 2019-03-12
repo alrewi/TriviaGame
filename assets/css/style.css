@@ -1,3 +1,18 @@
+body, .jumbotron {
+    background-image: url("../images/stars-1334732.jpg");
+    background-size: cover;
+    font-family: 'Contrail One', cursive;
+}
+    
+.display-4 {
+    font-family: 'Faster One', cursive;
+    font-size: 5.5em;
+    color: #FF3804;
+}
+.lead {
+    color: #FF600E;
+}
+
 .row {
     text-align: center;
     margin: 0;
@@ -6,9 +21,20 @@
 .h1 {
     display: inline;
     font-weight: 300;
-    padding: 15px 0 15px 78px;
+    padding: 90px 0 15px 142px;
 }
 
+#question {
+    font-size: 22px;
+    font-weight: 300px;
+    color: #2E8BA2;
+}
+
+#timer {
+    color:#06ABBC;
+}
 #timer-display {
     display: inline;
+    color: #2E8BA2;
 }
+
