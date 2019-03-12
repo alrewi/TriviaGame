@@ -1,6 +1,6 @@
 
 //Initial variables
-var timeLeft = 30;
+var timeLeft = 120;
 var timerRunning = false;
 var numberCorrect = 0;
 var numberWrong = 0;
