@@ -1,9 +1,17 @@
+/*Header CSS*/
+
 body, .jumbotron {
     background-image: url("../images/stars-1334732.jpg");
     background-size: cover;
     font-family: 'Contrail One', cursive;
+}   
+.jumbotron {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 32px;
 }
-    
 .display-4 {
     font-family: 'Faster One', cursive;
     font-size: 5.5em;
@@ -12,29 +20,61 @@ body, .jumbotron {
 .lead {
     color: #FF600E;
 }
-
-.row {
-    text-align: center;
-    margin: 0;
-}
-
 .h1 {
     display: inline;
     font-weight: 300;
-    padding: 90px 0 15px 142px;
 }
-
-#question {
-    font-size: 22px;
-    font-weight: 300px;
-    color: #2E8BA2;
-}
-
 #timer {
     color:#06ABBC;
 }
 #timer-display {
     display: inline;
     color: #2E8BA2;
+}
+
+
+/*Quiz CSS*/
+
+.row {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 400px;
+}
+.question {
+    font-size: 22px;
+    font-weight: 300px;
+    color: #41a53a;
+}
+#question-1 {
+    background-image: url("../images/hubble-1632627-640x360.jpg");
+}
+#question-2 {
+    background-image: url("../images/orion-nebula-1056233-639x462.jpg");
+}
+#question-3 {
+    background-image: url("../images/space-halo-5-1626966-639x383.jpg");
+}
+#question-4 {
+    background-image: url("../images/nebula-space-astro-photo-astronomy-sky-1420873-639x403.jpg");
+}
+#question-5 {
+    background-image: url("../images/negative-energy-1197601-640x480.jpg");
+}
+#question-6 {
+    background-image: url("../images/stars-1194599-639x511.jpg");
+}
+#question-7 {
+    background-image: url("../images/black-hole-1181587-640x480.jpg");
+}
+#question-8 {
+    background-image: url("../images/nebula-1-1159148-640x512.jpg");
+}
+
+#button-submit {
+    width: 50%;
+    background-color: #FF600E;
+    float: right;
+    margin-bottom: 10%;
 }
 
